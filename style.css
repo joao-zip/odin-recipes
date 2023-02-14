@@ -1,24 +1,93 @@
 @charset "UTF-8";
 
 * {
-    margin: 0px;
-    background-color: rgb(39, 40, 65);
-    color: white;
+    padding: 0;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-size: 20px;
+}
+
+header {
+    background-color: rgb(240, 72, 72);
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+main {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
 }
 
 h1 {
+    color: white;
+    font-size: 2.4em;
     text-align: center;
-    font-size: 3em;
+    padding-top: 15px;
 }
 
-img {
-    height: auto;
-    width: 500px;
+main img {
+    height: 180px;
+    width: auto;
 }
 
 a {
-    text-align: justify;
+    text-decoration: none;
 }
 
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(185, 114, 47);
+    font-size: 1.8em;
+}
+
+a:hover img {
+    height: 200px;
+    width: auto;
+}
+
+footer {
+    padding-top: 40px;
+}
+
+footer p {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.top-content {
+    padding-bottom: 30px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container li {
+    list-style-type: none;
+}
+
+.recipe {
+    text-align: justify;
+    padding: 20px;
+}
+
+main p {
+    padding: 20px;
+}
+
+ul {
+    list-style-type: "\2192";
+}
+
+.recipe li {
+    padding: 3px;
+}
+
+h2 {
+    font-size: 1.8em;
+}
